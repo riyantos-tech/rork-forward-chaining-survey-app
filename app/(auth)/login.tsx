@@ -38,8 +38,8 @@ export default function LoginScreen() {
             <LogIn color="#fff" size={60} strokeWidth={1.5} />
           </View>
           
-          <Text style={styles.title}>Survey App</Text>
-          <Text style={styles.subtitle}>Masuk ke akun Anda</Text>
+          <Text style={styles.title}>Identifikasi App</Text>
+          <Text style={styles.subtitle}>Cari kebutuhan IPhone anda disini</Text>
 
           <View style={styles.form}>
             <View style={styles.inputContainer}>
