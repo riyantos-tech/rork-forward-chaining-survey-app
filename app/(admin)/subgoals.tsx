@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: '700' as const,
-    color: '#1a1a1a',
+    color: '#000',
     marginBottom: 8,
   },
   subtitle: {
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
   formTitle: {
     fontSize: 18,
     fontWeight: '600' as const,
-    color: '#1a1a1a',
+    color: '#000',
     marginBottom: 16,
   },
   input: {
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     fontSize: 16,
-    color: '#1a1a1a',
+    color: '#000',
     marginBottom: 16,
   },
   textArea: {
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
   listTitle: {
     fontSize: 18,
     fontWeight: '600' as const,
-    color: '#1a1a1a',
+    color: '#000',
     marginBottom: 16,
   },
   emptyCard: {
@@ -229,7 +229,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     fontWeight: '700' as const,
-    color: '#1a1a1a',
+    color: '#000',
   },
   subgoalDescription: {
     fontSize: 14,
