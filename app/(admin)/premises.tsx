@@ -80,6 +80,7 @@ export default function PremisesScreen() {
         <TextInput
           style={styles.input}
           placeholder="Pertanyaan (contoh: Apakah Anda memiliki HP?)"
+          placeholderTextColor="#9ca3af"
           value={question}
           onChangeText={setQuestion}
           multiline
