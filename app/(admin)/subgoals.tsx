@@ -69,6 +69,7 @@ export default function SubgoalsScreen() {
         <TextInput
           style={styles.input}
           placeholder="Nama subgoal (contoh: Rekomendasi iPhone 15)"
+          placeholderTextColor="#9ca3af"
           value={name}
           onChangeText={setName}
         />
@@ -76,6 +77,7 @@ export default function SubgoalsScreen() {
         <TextInput
           style={[styles.input, styles.textArea]}
           placeholder="Deskripsi subgoal"
+          placeholderTextColor="#9ca3af"
           value={description}
           onChangeText={setDescription}
           multiline
