@@ -193,8 +193,9 @@ export default function RulesScreen() {
                 <Picker
                   selectedValue={selectedSubgoal}
                   onValueChange={setSelectedSubgoal}
+                  itemStyle={{ color: '#1a1a1a', fontSize: 16 }}
                 >
-                  <Picker.Item label="Pilih subgoal..." value="" />
+                  <Picker.Item label="Pilih subgoal..." value="" color="#9ca3af" />
                   {subgoals.map(s => (
                     <Picker.Item key={s.id} label={s.name} value={s.id} />
                   ))}
