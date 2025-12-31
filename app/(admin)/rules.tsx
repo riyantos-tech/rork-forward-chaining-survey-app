@@ -337,10 +337,11 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   modalLabel: {
-    fontSize: 16,
-    fontWeight: '600' as const,
-    color: '#1a1a1a',
+    fontSize: 18,
+    fontWeight: '700' as const,
+    color: '#667eea',
     marginBottom: 12,
+    marginTop: 8,
   },
   conditionRow: {
     flexDirection: 'row',
