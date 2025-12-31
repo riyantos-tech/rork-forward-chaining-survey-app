@@ -150,8 +150,8 @@ const styles = StyleSheet.create({
   },
   formTitle: {
     fontSize: 18,
-    fontWeight: '600' as const,
-    color: '#1a1a1a',
+    fontWeight: '700' as const,
+    color: '#000',
     marginBottom: 16,
   },
   input: {
