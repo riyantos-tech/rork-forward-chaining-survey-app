@@ -171,6 +171,7 @@ export default function RulesScreen() {
                         newPremises[index] = value;
                         setSelectedPremises(newPremises);
                       }}
+                      itemStyle={{ color: '#1a1a1a', fontSize: 16 }}
                     >
                       {premises.map(p => (
                         <Picker.Item key={p.id} label={p.name} value={p.id} />
