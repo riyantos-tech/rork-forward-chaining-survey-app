@@ -73,6 +73,7 @@ export default function PremisesScreen() {
         <TextInput
           style={styles.input}
           placeholder="Nama premise (contoh: HasPhone)"
+          placeholderTextColor="#9ca3af"
           value={name}
           onChangeText={setName}
         />
