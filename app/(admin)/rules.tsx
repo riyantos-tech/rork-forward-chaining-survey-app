@@ -171,7 +171,6 @@ export default function RulesScreen() {
                         newPremises[index] = value;
                         setSelectedPremises(newPremises);
                       }}
-                      itemStyle={{ color: '#1a1a1a', fontSize: 16 }}
                     >
                       {premises.map(p => (
                         <Picker.Item key={p.id} label={p.name} value={p.id} />
@@ -194,9 +193,8 @@ export default function RulesScreen() {
                 <Picker
                   selectedValue={selectedSubgoal}
                   onValueChange={setSelectedSubgoal}
-                  itemStyle={{ color: '#1a1a1a', fontSize: 16 }}
                 >
-                  <Picker.Item label="Pilih subgoal..." value="" color="#9ca3af"/>
+                  <Picker.Item label="Pilih subgoal..." value="" />
                   {subgoals.map(s => (
                     <Picker.Item key={s.id} label={s.name} value={s.id} />
                   ))}
